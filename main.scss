@@ -34,6 +34,7 @@ body {
       bottom: 0;
       z-index: -1;
       width: 100%;
+      height: auto;
     }
 
     nav {
@@ -50,6 +51,10 @@ body {
         width: 80px;
         color: #000;
         font-size: 30px;
+
+        a {
+          display: flex;
+        }
 
         span {
           color: #fac031;
@@ -100,7 +105,7 @@ body {
     }
   }
 }
-/*
+
 @media (min-aspect-ratio: 16/9) {
   .back-video {
     width: 100%;
@@ -114,4 +119,3 @@ body {
     height: 100%;
   }
 }
-*/
