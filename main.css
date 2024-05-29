@@ -44,9 +44,6 @@ body .hero nav .logo {
   color: #000;
   font-size: 30px;
 }
-body .hero nav .logo a {
-  display: flex;
-}
 body .hero nav .logo span {
   color: #fac031;
   font-weight: 700;
